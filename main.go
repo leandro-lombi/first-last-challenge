@@ -7,7 +7,15 @@ import (
 )
 
 func main() {
-	test := []string{"Leandro", "Tixa", "Lombi"}
+	test := []string{"leandro", "tixa", "lombi"}
 	fmt.Println(encode.EncodeFirstLast(test))
 
+	// ["leandro", "tixa", "lombi"]
+	// ["la", "ti", "lo"]
+
+	// ["cat", "dog", "fish"]
+	// ["cg", "dh", "ft"]
+
+	// ["cat", "dog", "fish", "lion"]
+	// ["cg", "dh", "fn", "lt"]
 }
